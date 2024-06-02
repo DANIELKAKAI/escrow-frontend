@@ -8,7 +8,7 @@ const ProductList = ({
 }) => {
     const products = [
         {
-            id: "008",
+            id: "117",
             name: "Product 1",
             image:
                 "https://t4.ftcdn.net/jpg/06/11/66/83/360_F_611668398_2iGlPGojelZJDwcQ3ksSjhs3nEeyxeTZ.jpg",
@@ -16,7 +16,7 @@ const ProductList = ({
             price: 0.1,
         },
         {
-            id: "009",
+            id: "118",
             name: "Product 2",
             image:
                 "https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?cs=srgb&dl=pexels-binyaminmellish-1396122.jpg&fm=jpg",
@@ -24,7 +24,7 @@ const ProductList = ({
             price: 0.1,
         },
         {
-            id: "007",
+            id: "119",
             name: "Product 3",
             image:
                 "https://img.freepik.com/free-photo/blue-house-with-blue-roof-sky-background_1340-25953.jpg?size=626&ext=jpg&ga=GA1.1.2082370165.1717027200&semt=ais_user",
