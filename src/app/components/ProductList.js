@@ -8,28 +8,28 @@ const ProductList = ({
 }) => {
     const products = [
         {
-            id: "111",
+            id: "008",
             name: "Product 1",
             image:
                 "https://t4.ftcdn.net/jpg/06/11/66/83/360_F_611668398_2iGlPGojelZJDwcQ3ksSjhs3nEeyxeTZ.jpg",
             phone: "123-456-7890",
-            price: 1,
+            price: 0.1,
         },
         {
-            id: "112",
+            id: "009",
             name: "Product 2",
             image:
                 "https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?cs=srgb&dl=pexels-binyaminmellish-1396122.jpg&fm=jpg",
             phone: "098-765-4321",
-            price: 1,
+            price: 0.1,
         },
         {
-            id: "113",
+            id: "007",
             name: "Product 3",
             image:
                 "https://img.freepik.com/free-photo/blue-house-with-blue-roof-sky-background_1340-25953.jpg?size=626&ext=jpg&ga=GA1.1.2082370165.1717027200&semt=ais_user",
             phone: "555-555-5555",
-            price: 1,
+            price: 0.1,
         },
     ];
 
@@ -46,25 +46,28 @@ const ProductList = ({
                         <h2 className="product-name">{product.name}</h2>
                         <p className="product-id">ID: {product.id}</p>
                         <p className="seller-phone">Seller: {product.phone}</p>
+                        <p className="seller-phone">Price: {product.price}</p>
                     </div>
                     <div>
                         <button
                             className="buy-button"
                             onClick={() => handleBuyClick(product)}
                         >
-                            Buy
+                            Start Escrow
                         </button>
+                        <br></br>
                         <button
                             className="buy-button"
                             onClick={() => handleDepositClick(product)}
                         >
-                            Deposit
+                            Deposit to Arbitor
                         </button>
+                        <br></br>
                         <button
                             className="buy-button"
                             onClick={() => handleApproveClick(product)}
                         >
-                            Approve
+                            Approve Product
                         </button>
                     </div>
                 </div>
